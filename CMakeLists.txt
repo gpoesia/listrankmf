@@ -6,3 +6,6 @@ INSTALL(TARGETS listrankmf
         ARCHIVE DESTINATION lib)
 INSTALL(FILES listrankmf.h
         DESTINATION include)
+
+add_executable(example example.cpp)
+target_link_libraries(example listrankmf)
