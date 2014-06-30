@@ -67,7 +67,7 @@ void list_rank_mf(
 /// \return The calculated score. This score can be used for ranking the items
 /// for a given user, but otherwise has no intrinsic meaning.
 double predict_score(
-        const vector<double> &user_features,
-        const vector<double> &item_features);
+        const std::vector<double> &user_features,
+        const std::vector<double> &item_features);
 
 #endif  // LISTRANKMF_H_
