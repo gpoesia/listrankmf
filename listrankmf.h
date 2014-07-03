@@ -49,8 +49,8 @@
 /// the latent factors (true) or use the given initial values instead (false).
 void list_rank_mf(
         const std::vector<std::vector<std::pair<int, double> > > &ratings,
-        std::vector<vector<double> > &users_features,
-        std::vector<vector<double> > &items_features,
+        std::vector<std::vector<double> > &users_features,
+        std::vector<std::vector<double> > &items_features,
         unsigned int d = 10,
         double learning_rate = 0.1,
         double lambda = 0.1,
